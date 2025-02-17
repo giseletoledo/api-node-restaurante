@@ -10,4 +10,4 @@ class ProductController {
   }
 }
 
-export { ProductController };
+export { ProductController }; // Ensure the class is exported
