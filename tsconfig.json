@@ -13,6 +13,6 @@
     "outDir": "./dist", // Opcional: diretório de saída para os arquivos compilados
     "rootDir": "./src"  // Especifica o diretório raiz dos arquivos TypeScript
   },
-  "include": ["src/**/*.ts"], // Inclui todos os arquivos TypeScript na pasta src
+  "include": ["src/**/*.ts", "knexfile.ts"], // Inclui todos os arquivos TypeScript na pasta src
   "exclude": ["node_modules"] // Exclui a pasta node_modules
 }
